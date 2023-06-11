@@ -8,7 +8,8 @@ public class stick {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<Integer> stick = new ArrayList<>();
-        int x = sc.nextInt();
+        // int x = sc.nextInt();
+        int x = 60;
         stick.add(64);
 
         if (x == 64){
