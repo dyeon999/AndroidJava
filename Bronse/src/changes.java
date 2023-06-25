@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// 그리디알고리즘
+// 5585
+
 public class changes{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
