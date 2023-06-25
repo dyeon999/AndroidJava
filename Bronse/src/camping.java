@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
+// 4796
 public class camping {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // int l = 1;
-        // int p = 1;
-        // int v = 1;
         int ca = 1;
 
         while(true){
@@ -14,7 +12,7 @@ public class camping {
             int p = sc.nextInt();
             int v = sc.nextInt();
 
-            if(v == 0){
+            if(v == 0 || l == 0 || p == 0){
                 break;
             }
 
@@ -22,15 +20,10 @@ public class camping {
             int c = v / p;
             int left = v % p;
 
-            days += l * c;
-            if (left < l){
-                days += left;
-            } else{
-                days += l;
-            }
+            days += l * c + Math.min(l, left);
 
-            System.out.printf("Case %d: %d", ca, days);
-            days++;
+            System.out.printf("Case %d: %d \n", ca, days);
+            ca++;
         }
 
         
