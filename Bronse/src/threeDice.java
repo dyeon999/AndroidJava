@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// 2480
 public class threeDice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
