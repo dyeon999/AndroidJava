@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 // 10811
-public class bucket {
+public class flipBasket {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
