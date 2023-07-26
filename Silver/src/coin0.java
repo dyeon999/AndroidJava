@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// 11047
 public class coin0 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
