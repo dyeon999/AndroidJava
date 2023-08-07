@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 // 2798
+// 브루트포스 알고리즘
 public class blackJack {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
