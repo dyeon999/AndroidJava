@@ -3,6 +3,7 @@ public class safe {
         int[][] board = new int[5][5];
         board[3][2] = 1;
         board[3][3] = 1;
+        board[2][2] = 1;
         int answer = 0;
         int[][] bomboard = new int[board.length][board.length];
         for (int i = 0; i < board.length; i++){
