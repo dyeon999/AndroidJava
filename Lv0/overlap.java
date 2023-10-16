@@ -10,7 +10,7 @@ public class overlap {
             for (int j = lines[i][0]; j < lines[i][1]; j++){
                 if (find(list, j) == 1){
                     cnt++;
-                    list.remove(j);
+                    list.remove((Integer)j);
                 } else{
                     list.add(j);
                 }
