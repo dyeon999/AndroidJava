@@ -1,18 +1,22 @@
 public class leastComonMul {
     public static void main(String[] args) {
-        int a = 2, b = 9;
+        int a = 27, b = 18;
         int result = 0;
         int i = 1;
         if (a < b){
-            result = b;
-            while(i * b % a != 0){
+            while(true){
                 result = i * b;
+                if(result % a == 0){
+                    break;
+                }
                 i++; 
             }
         } else {
-            result = a;
-            while(i * a % b != 0){
+            while(true){
                 result = i * a;
+                if(result % b == 0){
+                    break;
+                }
                 i++; 
             }
         }
