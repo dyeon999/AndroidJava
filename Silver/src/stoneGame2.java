@@ -13,7 +13,7 @@ public class stoneGame2 {
         dp[1] = 2;
         dp[2] = 1;
 
-        for (int i = 3; i <g n; i++){
+        for (int i = 3; i < n; i++){
             if (dp[i-1] == 1 || dp[i-3] == 1){
                 dp[i] = 2;
             } else {
